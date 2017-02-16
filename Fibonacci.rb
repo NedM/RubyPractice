@@ -1,12 +1,14 @@
-# Methods must be defined before they are exectuted!
+# Begin Function Defs #
+
+# Methods must be defined before they are executed!
 def get_user_selection
   puts "Do you want a specific number of elements or elements up to a specific value?"
   
   choice = ""
   
   until choice == 'V' || choice == 'N' || choice == 'X'
-  print "Enter 'V' for max value, 'N' for num elements, 'X' for exit > "
-  choice = gets.chomp.chars.first.upcase
+    print "Enter 'V' for max value, 'N' for num elements, 'X' for exit > "
+    choice = gets.chomp.chars.first.upcase
   end
   
   return choice
@@ -56,6 +58,8 @@ def get_fibonacci_numbers_up_to_limit(limit)
   
   return seq
 end
+
+# End Function Defs #
 
 choice = get_user_selection
 
