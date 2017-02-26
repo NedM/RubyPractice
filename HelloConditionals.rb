@@ -8,15 +8,15 @@ not_friend_greeting = "Salutations, #{name}. I am pleased to make your acquainta
 friend_greeting = "What's up, #{name}! Good to see you again."
 
 unless friend
-    puts not_friend_greeting
+  puts not_friend_greeting
 else
-    puts friend_greeting
+  puts friend_greeting
 end
 
 if !friend
-    puts not_friend_greeting
+  puts not_friend_greeting
 else
-    puts friend_greeting
+  puts friend_greeting
 end
 
 # The two blocks above should produce the same output as they are equivalent
